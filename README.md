@@ -12,5 +12,5 @@ Implemented the U-net architecture for cell image data segmentation using PyTorc
 ## Results
 Original images on the left, ground truth in the middle and results on the right
 
-<img src=./img/result.png width='500px'>
+<img src=./img/Result.png width='500px'>
 
