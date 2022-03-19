@@ -1,4 +1,16 @@
-# U-Net Cell Image Segmentation
-Implemented the U-net architecture for cell image data segmentation using PyTorch to learn concatenation type of skip connections.
-The network I implemented consists of a Two Convolution Block part, a Encoder Part and a Decoder Part.
-Cell images are limited, so I did data augumentation by flip,rotation and gamma correction.
+## U-Net Cell Image Segmentation
+Implemented the U-net architecture for cell image data segmentation using PyTorch base on the paper called ["U-Net: Convolutional Networks for Biomedical Image Segmentation"](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
+
+### Architechure
+- Two Convolution Block
+- Encoder
+- Decoder
+- Data augumentation include flip, rotation and gamma correction.
+
+<img src=./img/unet_arch.png width='500px'>
+
+## Results
+Original images on the left, ground truth in the middle and results on the right
+
+<img src=./img/result.png width='500px'>
+
